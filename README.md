@@ -77,7 +77,7 @@ Here are some examples of the data visualizations using HvPlot, Seaborn, and Qua
 * Our strategy would not have done as well as we would have hoped after backtesting over a year's worth of data. As you can see from our chart, one out of the four assets we held had greater cumulative returns than the S&P 500. TRX, Tron cryptocurrency coin, was a massive outlier in our findings, as it was the only asset to outperform the S&P 500, thus the other assets, and by a large margin. On April 16, 2021, TRX was outperforming SPY by 96.6%. The risk-reward indicator or sharpe ratio's demonstrate to us that even though our assets have not been performing the best, they are still good bets. Three out of our five assets have higher sharpe ratios than the SPY. Sharpe ratios is a great indicator to determine whether an asset's volatility is worth it or not. So even though we would have been down on our initial investment for over a year now, we would still look to hold through the bear market and enjoy price action when the switch is flipped. 
 
 ### Is it always better to buy higher volatility assets? 
-
+ 
 ![SPYTRXDrawdown](https://github.com/dannynday/group-project-1/blob/main/Image/SPY_TRX_drawdown.png)
 * The yellow line represents TRX's highest daily drawdowns and the green line corresponds with it, showing the maximum point reached. The blue and red lines represents SPY in the same manner, respectively. This graph tells us that it is not always better to buy more volatile assets because the more volatile asset (TRX) has less returns this year than the less volatile asset (SPY). 
 
