@@ -1,5 +1,14 @@
 # Dashing through Crypto Snow - Group 1 Project
 ### By: Ethan, Danny and Yen
+## Rough Breakdown of tasks:
+* Come up with an idea - Danny
+* Find a new, relevant library - Yen
+* Create a rough draft of code - Ethan
+* Import project-specific data - Yen
+* Clean up code so it is working - Danny & Yen
+* Create a second notebook with logic and reasoning - Ethan
+* Create a README.md file that fully captures the focus of our project - Ethan & Yen
+* Create a Google Slides presentation - Danny, Ethan, & Yen
 
 ## Step 0 - Start with THE QUESTION(s).
 ### What is the problem that you want to solve?
@@ -10,10 +19,10 @@
 * Is it always better to buy more volatile assets? 
 
 ### What is the trend you want to highlight?
-* Our strategy can outperform the S&P 500 regardless of market conditions. 
+Higher volatility assets provide a better return on investment than assets with lower volatility. 
 
 ### What are the insights you look to uncover?
-* We are expecting the higher performance from the volatile assets in any market conditions. In addition, we will be able to identify good assets with high probability overtime and low risk than S&P500.
+We are expecting a better performance from the volatile assets. In addition, we will be able to identify what makes an asset profitable with high probability of returns over time.
 
 ## Step 1 - Create a Jupyter Notebook #1, explaining how you are GETTING THE DATA TOGETHER:
 We took the following steps to compose the DashingCryptoSnow.ipynb Notebook 1: 
@@ -23,60 +32,58 @@ We took the following steps to compose the DashingCryptoSnow.ipynb Notebook 1:
 * Scrubbed the data sets by using Pandas dropna(), drop column, pct_change calculation, etc.  
 * Generated data visualizations using HvPlot, Seaborn, and Quantstat library.
 
-Here are some examples of the data visualizations using HvPlot, Seaborn, and Quantstat: 
+Here are some examples of the data visualizations using HvPlot, Seaborn, and Quantstats: 
 
-* Cumulative Returns
-![CumulativeReturns](https://github.com/dannynday/group-project-1/blob/main/Image/CumulativeReturns.GIF)
+![SharpeRatios](02Group/group-project-1/Image/SharpeRatiosAll.png)
+* Here we utilized HvPlot to determine the standing of our assets, and whether they are worth their inherent risk or not.
 
-* Daily Return Box: 
-![DailyReturnBox](https://github.com/dannynday/group-project-1/blob/main/Image/DailyReturnBox.GIF)
+![CroRolling](02Group/group-project-1/Image/CryptoRollingReturns.png)
+![StockRolling](02Group/group-project-1/Image/StockRollingReturns.png)
 
-* S&P 500 Max Draw Down
-![MaxDrawDown_SPY](https://github.com/dannynday/group-project-1/blob/main/Image/MaxDrawDown_SPY.GIF)
+![CorrelationMap](02Group/group-project-1/Image/CorrelationHeatMap.png)
+* Here we see that the cryptocurrencies have major correlation to one another, but everything else is faily decorrelated. 
 
-* SPY Monthly Return:
-![SPY_Monthly_Return](https://github.com/dannynday/group-project-1/blob/main/Image/SPY_Monthly_return.GIF)
-
-* Qantstat TRX Cumulative Return:
-![QS_TRX_CReturns](https://github.com/dannynday/group-project-1/blob/main/Image/QS_TRX_CReturns.GIF)
-
-* Qantstat Draw Down
-![QS_TRX_Drawdown](https://github.com/dannynday/group-project-1/blob/main/Image/QS_TRX_Drawdown.GIF)
-
-* Qantstat Monthly Return
-![QS_TRX_Monthly](https://github.com/dannynday/group-project-1/blob/main/Image/QS_TRX_Monthly.GIF)
-
-* Qantstat  Return Quantiles
-![QS_TRX_ReturnQuantiles](https://github.com/dannynday/group-project-1/blob/main/Image/QS_TRX_ReturnQuantiles.GIF)
-
+![SPYMonthly](02Group/group-project-1/Image/SPYMonthlyChart.png)
+![TRXMonthly](02Group/group-project-1/Image/TRXMonthlyChart.png)
 
 ## Step 2 - Create a Jupyter Notebook #2, which details your DATA ANALYSIS.
 ### Can we outperform the S&P 500 with our strategy of utilizing more volatile assets?
 * First, we prove the assets that we are buying are more volatile than the S&P 500:
 
-![Volatility](https://github.com/dannynday/group-project-1/blob/main/Image/Volatility.GIF)
+![STD](02Group/group-project-1/Image/VolatilityAll.png)
+* This chart represents the standard deviation of returns for each of our assets. SPY has the least percentage moves compared to the rest.
 
-![Correlation](https://github.com/dannynday/group-project-1/blob/main/Image/correlation.GIF)
+![VolatilityAll](02Group/group-project-1/Image/VolatilityBoth.png)
+* This chart shows the volatility of our assets based on a year of trading. Stocks only have 253 trading days a year, while crypto has all 365 days, which is why they are seperate lines.
 
 * Now that we have proven our assets are indeed fitting of the self-imposed requirements, we can focus on how our volatile assets do in comparison to the SPY.
 
-![DailyReturnBox](https://github.com/dannynday/group-project-1/blob/main/Image/DailyReturnBox.GIF)
+![DailyReturnBoxAll](02Group/group-project-1/Image/DailyBoxPlotAll.png)
 
 * As seen in the Daily Return Box plot, all of our chosen assets have greater ranges than the SPY to both the upside and downside. We should be able to outperform the SPY based on this chart so long as markets are expanding and not contracting.
 
 ### How would our strategy have done in the past year?
 
-![CumulativeReturns](https://github.com/dannynday/group-project-1/blob/main/Image/CumulativeReturns.GIF)
+![CumulativeReturnsFull](02Group/group-project-1/Image/Total_CReturns.png)
+* YTD view
+![CumulativeReturnsNot](02Group/group-project-1/Image/Short_CReturns.png)
+* Last three months view to more accurately see how our portfolio is doing presently.
 
-![SharpeRatio](https://github.com/dannynday/group-project-1/blob/main/Image/sharpe_ratio.GIF)
+![LogReturns](02Group/group-project-1/Image/LogReturnAll.png)
+* We can see here that everything ended up at around the same spot of return on investment over a year, even though we can see some assets were much higher or lower at some point.
 
 * Our strategy would not have done as well as we would have hoped after backtesting over a year's worth of data. As you can see from our chart, one out of the four assets we held had greater cumulative returns than the S&P 500. TRX, Tron cryptocurrency coin, was a massive outlier in our findings, as it was the only asset to outperform the S&P 500, thus the other assets, and by a large margin. On Apirl 16, 2021, TRX was outperforming SPY by 96.6%. The risk-reward indicator or sharpe ratio's demonstrate to us that even though our assets have not been performing the best, they are still good bets. Three out of our five assets have higher sharpe ratios than the SPY. Sharpe ratios is a great indicator to determine whether an asset's volatility is worth it or not. So even though we would have been down on our initial investment for over a year now, we would still look to hold through the bear market and enjoy price action when the switch is flipped. 
 
 ### Is it always better to buy higher volatility assets? 
 
-![TRXDrawdown](https://github.com/dannynday/group-project-1/blob/main/Image/TRX%20Drawdown.GIF)
+![SPYTRXDrawdown](02Group/group-project-1/Image/SPY_TRX_drawdown.png)
+* The yellow line represents TRX's highest daily drawdowns and the green line corresponds with it, showing the maximum point reached. The blue and red lines represents SPY in the same manner, respectively. This graph tells us that it is not always better to buy more volatile assets because the more volatile asset (TRX) has less returns this year than the less volatile asset (SPY). 
 
-![MaxDrawDown_SPY](https://github.com/dannynday/group-project-1/blob/main/Image/MaxDrawDown_SPY.GIF)
+![SPYBench](02Group/group-project-1/Image/SPYBenchmark.png)
+* Here you can see SPY is about -15% returns YTD. This is what we are striving to beat.
+
+![TSLAR](02Group/group-project-1/Image/TSLA_return.png)
+* This is TSLA's cumulative returns, about -50%. All of our assets YTD are actuallly down 50% or more and the SPY is only down 15%. 
 
 According to our findings, it is not always better to buy the more volatile assets. When we sample data from the past year, we can see that volatile assets have greater exposure to the down side than the S&P500. In the past year, many economists would classify risk-on assets as being in a bear market. One could conclude that when markets are in turmoil, assets that can move more quickly will move more quickly to the down side than less volatile assets. This is due to the available liqudity. The S&P500 is one of the most traded and widely available assets in the world while TRX is not well-known and only available certain places. This leads to S&P500 having a lot of trust and TRX not so much, people with lots of money feel comfortable putting large sums of money into very trusty and very liquid assets. Since S&P500 has more liquidity than TRX, it takes billions of more dollars to push the price down 60% in a day where TRX it could only be millions of dollars. You have some of the largest corporations like Vanguard and BlackRock offering S&P 500 ETF versus cryptic internet addresses offering TRX through (de)centralized exchanges. 
 
