@@ -4,6 +4,7 @@
 ## Step 0 - Start with THE QUESTION(s).
 ### What is the problem that you want to solve?
 * Can we outperform the S&P 500 with our strategy of utilizing more volatile assets?
+
 * What is the our strategy performance over the past year?
 
 * Is it always better to buy more volatile assets? 
