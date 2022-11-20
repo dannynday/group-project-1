@@ -35,10 +35,10 @@ Here are some examples of the data visualizations using HvPlot, Seaborn, and Qua
 ![MaxDrawDown_SPY](https://github.com/dannynday/group-project-1/blob/main/Image/MaxDrawDown_SPY.GIF)
 
 * SPY Monthly Return:
-![SPY_Monthly_Return](https:)
+![SPY_Monthly_Return](https://github.com/dannynday/group-project-1/blob/main/Image/SPY_Monthly_return.GIF)
 
 * Qantstat TRX Cumulative Return:
-![QS_TRX_CReturns](https://github.com/dannynday/group-project-1/blob/main/Image/SPY_Monthly_return.GIF)
+![QS_TRX_CReturns](https://github.com/dannynday/group-project-1/blob/main/Image/QS_TRX_CReturns.GIF)
 
 * Qantstat Draw Down
 ![QS_TRX_Drawdown](https://github.com/dannynday/group-project-1/blob/main/Image/QS_TRX_Drawdown.GIF)
