@@ -36,7 +36,7 @@ We took the following steps to compose the DashingCryptoSnow.ipynb Notebook 1:
 
 Here are some examples of the data visualizations using HvPlot, Seaborn, and Quantstats: 
 
-![SharpeRatios](https://github.com/dannynday/group-project-1/blob/main/Image/SharpeRatiosAll2.png)
+![SharpeRatios](https://github.com/dannynday/group-project-1/Image/SharpeRatiosAll.png)
 * Here we utilized HvPlot to determine the standing of our assets, and whether they are worth their inherent risk or not. 
 
 ![CorrelationMap](https://github.com/dannynday/group-project-1/blob/main/Image/CorrelationHeatMap.png)
