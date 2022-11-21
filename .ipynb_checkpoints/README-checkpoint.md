@@ -35,7 +35,7 @@ We took the following steps to compose the DashingCryptoSnow.ipynb Notebook 1:
 
 Here are some examples of the data visualizations using HvPlot, Seaborn, and Quantstats: 
 
-![SharpeRatios](../Image/SharpeRatiosAll.png)
+![SharpeRatios](../Image/SharpeRatiosAll2.png)
 * Here we utilized HvPlot to determine the standing of our assets, and whether they are worth their inherent risk or not. 
 
 ![CorrelationMap](../Image/CorrelationHeatMap.png)
@@ -65,11 +65,11 @@ Here are some examples of the data visualizations using HvPlot, Seaborn, and Qua
 ### How would our strategy have done in the past year?
 
 ![LogReturns](../Image/LogReturnAll.png)
-* We can see here that everything on a braod, log scale ended up at around the same spot of return on investment over a year, even though we can see some assets were much higher or lower at some point. 
+* We can see here that everything on a broad, log scale ended up at around the same spot of return on investment over a year, even though we can see some assets were much higher or lower at some point. 
 
 ![CumulativeReturnsFull](../Image/Total_CReturns.png)
 
-* Our strategy would not have done as well as we would have hoped after backtesting over a year's worth of data. As you can see from our charts, none of our assets outperformed the SPY over the last year. Amdist the chaos of the market, the durable and trustworthy SPY showcased its resilliance this year. 
+* Our strategy would not have done as well as we would have hoped after backtesting over a year's worth of data. As you can see from our charts, none of our assets outperformed the SPY over the last year. Amdist the chaos of the market, the durable and trustworthy SPY showcased its resilience this year. 
 
 ### Is it always better to buy higher volatility assets? 
 
