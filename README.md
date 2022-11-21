@@ -41,16 +41,16 @@ Here are some examples of the data visualizations using HvPlot, Seaborn, and Qua
 ![CorrelationMap](../Image/CorrelationHeatMap.png)
 * Here we see that the cryptocurrencies have major correlation to one another, but everything else is faily decorrelated. 
 
-![SPY%s](../Image/SPYMonthly.png)
-![GME%s](../Image/GMEMonthly.png)
-![TRX%s](../Image/TRXMonthly.png)
+![SPY%s](../Image/SPYMonthly1.png)
+![GME%s](../Image/GMEMonthly1.png)
+![TRX%s](../Image/TRXMonthly1.png)
 * We were curious to see more specifically what the correlation was and if that was to impact our hypothesis at all. When you put all three of these side by side it seems like they somewhat do go up and down together at least on a monthly basis. So that supported our hypothesis that we will outperform the S&P 500 since our assets go up easier than SPY. These pictures are courteous of QuantStats, one of the many things you can do with this library. 
 
 ## Step 2 - Create a Jupyter Notebook #2, which details your DATA ANALYSIS.
 ### Can we outperform the S&P 500 with our strategy of utilizing more volatile assets?
 * First, we prove the assets that we are buying are more volatile than the S&P 500:
 
-![STD](../Image/STDAll.png)
+![STD](../Image/STDAll1.png)
 * This chart represents the standard deviation of returns for each of our assets. SPY has the least percentage moves compared to the rest.
 
 ![VolatilityAll](../Image/VolatilityBoth.png)
@@ -64,16 +64,16 @@ Here are some examples of the data visualizations using HvPlot, Seaborn, and Qua
 
 ### How would our strategy have done in the past year?
 
-![LogReturns](../Image/LogReturnAll.png)
+![LogReturns](../Image/LogReturnAll1.png)
 * We can see here that everything on a broad, log scale ended up at around the same spot of return on investment over a year, even though we can see some assets were much higher or lower at some point. 
 
-![CumulativeReturnsFull](../Image/Total_CReturns.png)
+![CumulativeReturnsFull](../Image/Total_CReturns1.png)
 
 * Our strategy would not have done as well as we would have hoped after backtesting over a year's worth of data. As you can see from our charts, none of our assets outperformed the SPY over the last year. Amdist the chaos of the market, the durable and trustworthy SPY showcased its resilience this year. 
 
 ### Is it always better to buy higher volatility assets? 
 
-![SPYTRXDrawdown](../Image/SPY_TRX_drawdown.png)
+![SPYTRXDrawdown](../Image/SPY_TRX_drawdown1.png)
 * The yellow line represents TRX's highest daily drawdowns and the green line corresponds with it, showing the maximum point reached. The blue and red lines represents SPY in the same manner, respectively. This graph tells us that it is not always better to buy more volatile assets because the more volatile asset (TRX) has less returns this year than the less volatile asset (SPY) and the S&P kept its gains longer than Tron. 
 
 ![SPYBench](../Image/SPYBenchmark.png)
